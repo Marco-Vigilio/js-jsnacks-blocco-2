@@ -7,6 +7,7 @@ che gli/le dice se il numero da indovinare è maggiore o minore.
 Una volta che ha indovinato, stampiamo in console il numero di tentativi totali.
 */
 
+//numero da uno a dieci
 let numero = Math.floor(Math.random() * 10) + 1;
 
 let numeroUtente = parseInt(prompt("Indovina un numero da 1 a 10"));
