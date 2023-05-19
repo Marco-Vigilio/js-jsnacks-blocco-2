@@ -9,7 +9,7 @@ Una volta che ha indovinato, stampiamo in console il numero di tentativi totali.
 
 let numero = Math.floor(Math.random() * 10) + 1;
 
-let numeroUtente = parseInt(prompt("Inserisci un numero"));
+let numeroUtente = parseInt(prompt("Indovina un numero da 1 a 10"));
 
 while(numero !== numeroUtente){
     if(numeroUtente < numero){
