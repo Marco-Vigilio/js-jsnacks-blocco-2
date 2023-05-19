@@ -8,11 +8,11 @@ Una volta che ha indovinato, stampiamo in console il numero di tentativi totali.
 */
 
 //numero da uno a dieci
-let numero = Math.floor(Math.random() * 10) + 1;
+let numero = Math.floor(Math.random() * 100) + 1;
 
-let numeroUtente = parseInt(prompt("Indovina un numero da 1 a 10"));
+let numeroUtente = parseInt(prompt("Indovina un numero da 1 a 100"));
 
-while(numero !== numeroUtente){
+while(numeroUtente != numero){
     if(numeroUtente < numero){
         console.log("Il tuo numero è minore da quello di indovinare");
         numeroUtente = parseInt(prompt("Il tuo numero è minore da quello di indovinare, Inserisci un numero"));
@@ -21,7 +21,7 @@ while(numero !== numeroUtente){
         console.log("Il tuo numero è maggiore dal numero da indovinare");
         numeroUtente = parseInt(prompt("Il tuo numero è maggiore dal numero da indovinare, Inserisci un numero"));
     }
-    console.log("Il numero da indovinare è : " + numero);
+    //console.log("Il numero da indovinare è : " + numero);
 }
 
 console.log("Hai indovinato il numero");
