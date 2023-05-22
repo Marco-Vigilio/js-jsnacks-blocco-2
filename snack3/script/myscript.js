@@ -9,14 +9,14 @@ let giri = 0;
 
 while(giri != 10){
     let num = parseInt(prompt("Inserisci il tuo " + (giri+1) + "° numero"));
-    console.log("Numero inserito: " + num);
+    console.log("Il tuo " + (giri+1) + "° numero inserito: " + num);
     somma = somma + num;
     console.log()
     giri = giri + 1;
 }
 
 console.log("La somma dei 10 numeri : " + somma);
-console.log("La media dei 10 numeri: " + (somma / 10));
+console.log("La media dei 10 numeri è : " + (somma / 10));
 
 
 /*
