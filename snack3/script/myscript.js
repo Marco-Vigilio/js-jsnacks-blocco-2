@@ -27,3 +27,6 @@ for(let i = 0; i <10; i++){
 console.log();
 console.log("La somma dei 10 numeri : " + somma);
 console.log("La media dei 10 numeri: " + (somma / 10));
+
+
+ 
