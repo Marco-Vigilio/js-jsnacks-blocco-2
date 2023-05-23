@@ -10,7 +10,6 @@
  */
 
 let elemento = "li";
-let li = CreazioneElementi(elemento);
 let ul = document.querySelector("ul");
 
 function CreazioneElementi(element){
@@ -19,9 +18,11 @@ function CreazioneElementi(element){
 }
 
 for(let i = 0; i < 10; i++){
-    li.append("Qualcosa" + i);
+    let li = CreazioneElementi(elemento);
+    li.append("Qualcosa" + (i+1));
+    ul.appendChild(li);
 }
 
-ul.append(li)
+
 
 console.log();
